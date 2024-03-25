@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+        Модульные дома
+        </title>
+        <meta name="description" content="Блочная верстка HTML5">
+        <style>
+            div {vertical-align: baseline;}
+            * {box-sizing: border-box;}
+            #header h1 {
+                font-size: 24px;
+                text-transform: uppercase;
+                font-weight: bold;
+                padding: 30px 30px 30px 10px;
+                clear: both;
+                text-align: center;
+                text-shadow: 5px 4px 3px #666;
+             }
+             #nav {background-color: rgb(255, 255, 255);
+                border-top: 1px solid #888;
+                border-bottom: 1px solid #888;
+                }
+            #nav ul:after {content: " ";
+                display: table;
+                clear: both;
+                }
+            #nav li {float: left;
+                list-style: none;   
+                }
+            #nav a {display: block;
+                color: black;
+                padding: 10px 25px;
+                text-decoration: none;
+                border-right: 3px solid rgb(255, 255, 255);
+                font-size: xx-large;
+                }
+            #nav li:last-child a {border-right: none; 
+                }
+            #wrapper {
+                min-height: 600px;
+                background-image: url(https://sc04.alicdn.com/kf/H1ef9bb74347d466f986905654681dac0i/238865454/H1ef9bb74347d466f986905654681dac0i.jpg); 
+background-size: 100% 100%;  
+            }
+            #sidebar-left {
+                padding: 10px 10px 10px 10px;
+                float: left;
+                width: 25%;}
+            #sidebar-right {
+                padding: 10px 10px 10px 10px;
+                float: right;
+                width: 25%;}
+            #main {
+                padding: 10px 10px 10px 10px;
+                margin-left: 27%;
+                margin-right: 27%;
+                min-height: 600px;
+                background-color: rgba(255, 255, 255, 0.75);
+                /*float: left;*/
+                }
+            #footer {
+                background-color: rgb(255, 255, 255);
+                clear: both;
+                padding: 15px 50px 15px 50px;
+                text-align: center;
+                }
+        </style>
+    </head>
+    <body>
+        <div id="header">
+            <h1>EASY HOME</h1>
+        </div>
+        <div id="nav">
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="catalog.html">Каталог</a></li>
+                <li><a href="about.html">О компании</a></li>
+            </ul>
+        </div>
+        <div id="wrapper">
+            <div id="sidebar-left">
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="catalog.html">Каталог</a></li>
+                    <li><a href="about.html">О компании</a></li>
+                </ul>
+            </div>
+            <div id="sidebar-right">
+                <p>Правый сайдбар c новостями о проектах нашей компании</p>
+             </div>
+            <div id="main">
+                <p>МОДУЛЬНЫЙ ДОМ ПОД КЛЮЧ ОТ 1 400 000 ₽</p>
+                <p>От идеи до реализации за 2 месяца: построим дом, укомплектуем всем необходимым — внутренняя отделка, сантехника, электрика, мебель, установим септик и подключим воду</p>
+                <p>Подберем дом, бесплатно рассчитаем его стоимость и подарим печь-камин при покупке!</p>
+            </div>
+        </div>
+        <div id="footer">© EASYHOME 2024</div>
+    </body>
+</html>   
